@@ -1,0 +1,77 @@
+:root{
+    ---primary: #12A652;
+    ---secondary: #9de0ad;
+    ---tertiary: #F2F2F2;
+    ---accent: #262626;
+}
+
+body{
+    background-color: var(---tertiary);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    background-color: var(---secondary);
+}
+
+
+.nav-link {
+    color: var(---tertiary);
+
+}
+
+.nav-link:hover {
+    color: var(---primary);
+}
+
+img{
+    width: 50%;
+    height: auto !important;
+}
+
+
+.footer {
+    background-color: var(---secondary);
+    color: var(---tertiary);
+}
+
+.btn.btn-success{
+    
+    color: var(---tertiary)
+}
+
+.error-message {
+    color: red;
+}
+
+
+.success-message {
+    color: green;
+}
+
+.color-box {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    border: 1px solid #000;
+}
+
+.rojo {
+    background-color: red;
+}
+.verde {
+    background-color: green;
+}
+.marron {
+    background-color: #865a19;
+}
+
+.student-photo {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
